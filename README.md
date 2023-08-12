@@ -19,6 +19,16 @@ This project demonstrates a **parking sensor system** using an ESP8266 module an
 
 <img src="https://github.com/ano-ny-mous/Smart-Parking-Using-IoT/assets/91519560/9b9020a2-f627-4ee3-a605-0eb2a99f7746" alt="Screenshot 3" width="500"/>
 
+## Video
+
+https://github.com/ano-ny-mous/Smart-Parking-Using-IoT/assets/91519560/25850451-fefc-49b1-be53-f1d29630a894
+
+## Parking Status Distances
+
+**Free Parking**: Distance > 50 cm    
+**Occupied Parking**: 10 cm < Distance <= 50 cm    
+**Obstacle Detected**: Distance <= 10 cm      
+
 ## Installation
 
 1. Set up the Arduino IDE on your computer if not already done.
@@ -41,6 +51,7 @@ This project demonstrates a **parking sensor system** using an ESP8266 module an
 3. Add the required widgets (LEDs) to the project and assign appropriate virtual pins.
 4. Obtain the authorization token for your Blynk project.
 5. Replace `"xxxxxxxxxxxxx"` in the code with the obtained authorization token.
+
 
 ## License
 
